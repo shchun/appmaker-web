@@ -52,12 +52,28 @@
   </header>
 
   <main class="wrap">
-  <p class="meta">Effective date: June 3, 2026</p>
+  <p class="meta">Effective date: June 3, 2026 · Last updated: October 24, 2026</p>
 
   <p><strong>Precipi.com</strong> ("we", "us") provides mobile applications and related services
   (collectively, "the Services"). We take your privacy seriously. This policy explains what information
   our Services collect and how it is used.</p>
 
+  <h2>Apps and Services Covered</h2>
+  <p>This policy covers the following Precipi.com apps and related web services. App-specific processing is described separately below; where it is more specific than the general description, the app-specific description applies.</p>
+  <ul>
+    <li><strong>Coffigo</strong> — an existing app covered by the general policy</li>
+    <li><strong>Domado Timer</strong> — Android package: <code>com.precipi.pomodoro</code>, including the related web timer</li>
+  </ul>
+
+  <h2>Data Processing in Domado Timer</h2>
+  <table>
+    <tr><th>Category</th><th>Processing</th></tr>
+    <tr><td>Local storage</td><td>Timer mode, work/break durations, progress, repeat and theme preferences, and completion counts are saved in browser storage or Android app storage. To prevent duplicate counts, Android prunes completion records to a seven-day window when recording a completion. There is no feature that synchronizes the complete saved timer state to our own server.</td></tr>
+    <tr><td>Analytics transmission</td><td>Google Analytics 4 receives events such as start, pause, reset, mode change, phase completion, repeat/theme changes, and opening help. Depending on the event, parameters include mode, configured work/break durations, remaining time, work/break phase, repeat preference, theme, and platform (web/Android). The Google tag may also process connection/device information and analytics identifiers.</td></tr>
+    <tr><td>Purpose and provider</td><td>We use Google Analytics 4 (Google tag), provided by Google LLC, for usage statistics and service improvement. Analytics information may be transmitted to and processed by Google.</td></tr>
+    <tr><td>Permissions</td><td>Android notifications, alarms, and vibration support the timer and phase-transition alerts. Denying notification permission limits displayed notifications. Alerts may be delayed if exact alarms are unavailable.</td></tr>
+    <tr><td>Deletion and collection controls</td><td>You can remove local data by clearing the website's site data or the Android app's storage. App data may be backed up and restored according to Android backup/restore settings. Clearing local data does not delete analytics data already transmitted. The app currently has no dedicated analytics opt-out setting. Device advertising settings and browser opt-out add-ons are not guaranteed to block collection in the Android app. Contact the email below for analytics-data requests; what we can do depends on whether the relevant data can be identified.</td></tr>
+  </table>
   <h2>1. Information We Collect</h2>
   <p>Our Services require no account registration and do not collect directly identifying personal
   information such as your name, phone number, or email address. However, to improve quality and
@@ -76,7 +92,7 @@
   </ul>
 
   <h2>3. Third-Party Analytics</h2>
-  <p>Our Services use <strong>Google Analytics (via Google Tag Manager)</strong>, provided by Google LLC,
+  <p>Our Services use <strong>Google Analytics 4 (Google tag)</strong>, provided by Google LLC,
   to analyze usage. The information above may be transmitted to and processed by Google.
   You can learn more about Google's data practices below:</p>
   <ul>
@@ -85,12 +101,12 @@
   </ul>
 
   <h2>4. Data Retention</h2>
-  <p>Collected analytics data is deleted once its purpose has been fulfilled, and is automatically
-  removed after a period in accordance with Google Analytics' data retention policy.</p>
+  <p>Analytics data is handled according to the retention settings and deletion procedures of the Google Analytics property.
+  Retention controls apply to user-level and event-level data; standard aggregated reports are not covered by the same automatic deletion setting. See the app-specific section above for local-data deletion instructions.</p>
 
   <h2>5. Your Rights</h2>
-  <p>You may opt out of analytics collection by changing your device's advertising/tracking settings
-  or by using the Google Analytics opt-out tool above. You may also contact us at the address below
+  <p>Available collection controls depend on the app and environment. In a supported browser, you may use
+  the Google Analytics opt-out add-on above; it does not apply inside the Android app WebView. See the app-specific limitations above. You may also contact us at the address below
   to request access to or deletion of your information.</p>
 
   <h2>6. Children's Privacy</h2>
